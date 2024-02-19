@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gmail iOS</title>
+        <style>
+            .Container{
+                padding-left: 15px;
+                padding-right:  15px;
+                padding-top: 8px;
+                display: flex;
+                flex-direction: column;
+                height: 110px;
+                width: 330px;
+                border-radius: 5px;
+                box-shadow: 0 1px 5px rgba(0,0,0, 0.25);
+            }
+            
+            .profile{
+                width: 40px;
+                height: 40px;
+                border-radius: 25px;
+                display: inline-block;
+                object-position: center;
+                object-fit: cover;
+            }
+            .inboxes{
+                color: rgb(129, 126, 126);
+                font-size: 13px;
+                font-family: Arial;
+                margin-top: 0;
+            }
+            .right-section{
+                
+                margin-left:10px ;
+                width: 300px;
+            }
+            .email{
+                display: flex;
+                flex-direction: row;
+                
+            }
+            .top-part{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .tittle{
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: 14px;
+            }
+            .time{
+                color: gray;
+                font-size: 14px;
+            }
+            .paragraph{
+                font-weight: bold;
+                font-family: Arial;
+                font-size: 13px;
+                margin-top: 4px;
+            }
+            .message{
+                color: gray;
+                font-size: 13px;
+                font-family: Arial;
+                margin-top: 3px;
+            }
+
+           
+        </style>
+    </head>
+    <body>
+        <div class="Container">
+           <p class="inboxes">ALL INBOXES</p>
+           <div class="email">
+                <img class="profile" src="cat.jpg" alt="">
+                <div class="right-section">
+                    <div class="top-part">
+                        <div class="tittle">Chewy Promotions </div>
+                        <div class="time">4:58 PM</div>
+                    </div>
+                    <div class="paragraph">Biggest sales of the year!</div>
+                    <div class="message">Hey there! We're writing to tell you about our...</div>
+                </div>
+           </div>
+           
+        </div>
+    </body>
+</html>

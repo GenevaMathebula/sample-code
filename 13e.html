@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gmail iOS</title>
+        <style>
+            .Container{
+                display: flex;
+                flex-direction: column;
+                border-radius: 3px;
+                box-shadow: 0 1px 5px rgba(0,0,0, 0.5);
+                width: 300px;
+                padding-left: 15px;
+                padding-top: 5px;
+                padding-bottom: 15px;
+                padding-right:10px ;
+            }
+            .inboxes{
+                color: gray;
+                font-size: 12px;
+                font-family: Arial;
+            }
+            .mailbox{
+                display: flex;
+                flex-direction: column;
+                margin-top: 10px;
+            }
+            .email{
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 12px;
+            }
+            .profile{
+                width: 35px;
+                height: 35px;
+                align-items: center;
+                border-radius: 20px;
+                object-fit: cover;
+                object-position: center;
+            }
+            .right-section{
+                margin-left: 10px;
+                width: 250px;
+            }
+            .top{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .sender{
+                font-family: Arial;
+                font-weight: bold;
+                font-size: 14px;
+            }
+            .time{
+                color: gray;
+                font-size: 13px;
+            }
+            .tittle{
+                font-weight: bold;
+                font-size: 13px;
+                font-family: Arial;
+                margin-top: 2px;
+            }
+            .message{
+                color: gray;
+                font-size: 12px;
+                font-family: Arial;
+                margin-top: 2px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="Container">
+            <div class="inboxes">ALL INBOXES</div>
+            <div class="mailbox">
+                <div class="email">
+                    <img class="profile" src="cat.jpg" alt="">
+                    <div class="right-section">
+                        <div class="top">
+                            <div class="sender">Chewy Promotions</div>
+                            <div class="time">4:58 PM</div>
+                        </div>
+                        <div class="tittle">Biggest sales of the year!</div>
+                        <div class="message">Hey there! We're writing to tell you about our...</div>
+                    </div>
+                </div>
+                <div class="email">
+                    <img class="profile" src="dog.jpg" alt="">
+                    <div class="right-section">
+                        <div class="top">
+                            <div class="sender">Best Buy</div>
+                            <div class="time">12:32 PM</div>
+                        </div>
+                        <div class="tittle">Your Best Buy eReceipt</div>
+                        <div class="message">Thank you for shopping at Best Buy, here is...</div>
+                    </div>
+                </div>
+                <div class="email">
+                    <img class="profile" src="rabbit.jpg" alt="">
+                    <div class="right-section">
+                        <div class="top">
+                            <div class="sender">Netflix</div>
+                            <div class="time">9:00</div>
+                        </div>
+                        <div class="tittle">Here's what's coming soon to Netflix</div>
+                        <div class="message">Brand new movies and shows, old favorites...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

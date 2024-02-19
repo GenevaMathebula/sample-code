@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Twitter</title>
+        <style>
+            .Container{
+                display: flex;
+                flex-direction: row;
+                width: 450px;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 10px;
+            }
+            .post{
+                width: 360px;
+                margin-left: 15px;
+                margin-top: 8px;
+            }
+            .profile{
+                width: 50px;
+                height: 50px;
+                border-radius: 25px;
+                object-fit: cover;
+                object-position: center;
+            }
+            .name{
+                font-weight: bold;
+                font-family: Arial;
+            }
+            .at{
+                color: gray;
+                margin-left: 5px;
+            }
+            .top{
+                display: flex;
+                flex-direction: row;
+                
+            }
+            .paragraph{
+                font-size: 18px;
+                margin-top: 5px;
+                margin-bottom: 15px;
+            }
+            .grey{
+                width: 150px;
+                height: 100px;
+                margin-right: 10px;
+                background-color: rgb(181, 179, 179);
+            }
+            .link{
+                display: flex;
+                flex-direction: row;
+                border-width: 1px;
+                border-color: rgb(181, 179, 179);
+                border-style: solid;
+                overflow: hidden;
+                border-radius: 15px;
+                align-items: center;
+                
+
+                
+            }
+            .youtube{
+                
+                border-color: gray;
+                padding-left: 10px;
+                padding-top: 15px;
+                
+            }
+            .description{
+                font-size: 20px;
+                margin-top: 5px;
+                margin-bottom: 10px;
+            }
+            .grey-paragraph{
+                color: gray;
+                font-size: 18px;
+                
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="Container">
+            <img class="profile" src="cat.jpg" alt="">
+            <div class="post">
+                <div class="top">
+                    <div class="name">supersimple.dev</div>
+                    <div class="at">&#64;SuperSimpleDev</div>
+                </div>
+                <div class="paragraph">What is backend web development? A complete overview. New video is up!</div>
+                <div class="link">
+                    <div class="grey"></div>
+                    <div class="youtube">
+                        <div class="grey-paragraph">youtube.com</div>
+                        <div class="description">Backed wed development - a complete overview (2021)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
